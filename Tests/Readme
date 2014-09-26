@@ -1,0 +1,9 @@
+This directory contains scripts to test the packages using a Dockercontainer
+
+
+Stage1
+------
+
+Check installation. Based on a Debian jessie base install, check if the package
+successfully installs.
+
