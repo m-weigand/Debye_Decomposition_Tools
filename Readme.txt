@@ -8,8 +8,8 @@ Overview
 The software package is written in pure Python, and distributed in two parts
 (with corresponding subdirectories):
 
-    - 'GeccoInv': A (more or less) generic N-dimensional inversion framework
-    - 'DD_Interfaces': Implemntation of the various Debye decomposition
+    - 'geccoinv': A (more or less) generic N-dimensional inversion framework
+    - 'dd_interfaces': Implemntation of the various Debye decomposition
                        interfaces
 
 Both subdirectories are separate source code repositories (managed via git) and
@@ -31,14 +31,19 @@ In order to build the documentation, the additional packages are required:
 sphinx
 
 Under Debian-related linux systems, these packages can be installed using the
-command:
+commands:
 
+    sudo apt-get install texlive-latex-base texlive-latex-extra\
+        texlive-fonts-recommended texlive-fonts-extra dvipng
     sudo apt-get install python2.7-numpy python-matplotlib python2.7-scipy\
         python-setuptools python-nose python-tornado
     sudo apt-get install python-sphinx
 
 Under Windows, the program was tested using the 'pythonxy' distribution
-(https://code.google.com/p/pythonxy/).
+(https://code.google.com/p/pythonxy/). Additionally, latex support ist required
+for all plots. The programs was tested with the Miktex distribution
+(http://www.miktex.org/). Miktex will install any required Latex packages
+when required.
 
 Installation
 ------------
