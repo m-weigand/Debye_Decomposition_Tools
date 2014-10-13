@@ -7,7 +7,7 @@ test -d temp && rm -rf temp
 mkdir temp
 
 # copy files
-cp -r geccoInv dd_interfaces temp/
+cp -r geccoinv dd_interfaces temp/
 cp Readme.txt temp
 
 # we don't want the .git repositories
