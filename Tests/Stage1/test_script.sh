@@ -3,9 +3,9 @@
 cd /work
 tar xvf ddt.tar
 cd Debye_Decomposition_Tools/
-cd GeccoInv/
+cd geccoinv/
 python setup.py install
-cd ../DD_Interfaces/
+cd ../dd_interfaces/
 python setup.py install
 cd Examples/
 cd dd_single/
