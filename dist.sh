@@ -10,6 +10,15 @@ mkdir temp
 cp -r geccoinv dd_interfaces temp/
 cp Readme.txt temp
 
+# save the newest commit
+cd temp/geccoinv
+git log --oneline -n 1 > git_commit.txt
+cd ../../
+
+cd temp/dd_interfaces
+git log --oneline -n 1 > git_commit.txt
+cd ../../
+
 # we don't want the .git repositories
 rm -rf temp/geccoinv/.git
 rm -rf temp/dd_interfaces/.git

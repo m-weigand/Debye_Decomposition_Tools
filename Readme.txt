@@ -5,8 +5,8 @@ of time-lapse spectral induced polarisation data"
 Overview
 --------
 
-The software package is written in pure Python, and distributed in two parts
-(with corresponding subdirectories):
+The software package is written in pure Python, and distributed in two Python
+packages (in corresponding subdirectories):
 
     - 'geccoinv': A (more or less) generic N-dimensional inversion framework
     - 'dd_interfaces': Implemntation of the various Debye decomposition
@@ -43,7 +43,7 @@ Under Windows, the program was tested using the 'pythonxy' distribution
 (https://code.google.com/p/pythonxy/). Additionally, latex support ist required
 for all plots. The programs was tested with the Miktex distribution
 (http://www.miktex.org/). Miktex will install any required Latex packages
-when required.
+as required.
 
 Installation
 ------------
@@ -51,14 +51,23 @@ Installation
 The packages use the setuptools package, and the installation under linux is
 done using the following commands:
 
-    cd GeccoInv
+    cd geccoinv
     python setup.py install
     cd ..
-    cd DD_Interfaces
+    cd dd_interfaces
     python setup.py install
     cd ..
 
-Under windows, 'python' has to be replaced by 'python.exe'
+Under Windows, 'python' has to be replaced by 'python.exe'
+
+Documentation
+-------------
+
+The html version of the documentation can be found in the following
+directories:
+
+ * dd_interfaces/docs/doc/_build/html/index.html
+ * geccoinv/docs/doc/_build/html/index.html
 
 Upstream development
 --------------------
