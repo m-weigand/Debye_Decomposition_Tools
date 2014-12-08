@@ -83,10 +83,14 @@ Upstream development
 Development, bug reports, and public discussion is managed using the github.com
 platform:
 
-https://github.com/m-weigand/GeccoInv
-https://github.com/m-weigand/DD_Interfaces
+https://github.com/m-weigand/geccoinv
+https://github.com/m-weigand/dd_interfaces
 
 Comments, bug reports, and recommendations are welcome!
+
+This distribution package ist managed here:
+
+https://github.com/m-weigand/Debye_Decomposition_Tools
 
 Licence
 -------
