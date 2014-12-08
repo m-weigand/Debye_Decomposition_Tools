@@ -18,5 +18,10 @@ cd dd_interfaces
 # commit='b278a19b09f79374aca7dd90e0eb63392ee901d3'
 # git reset --hard ${commit}
 rm -fr .git
+# remove tests
+rm -rf src/dd_single/tests
+rm -rf src/dd_single/characterisation
+rm -rf src/dd_time/Tests
+rm -rf src/ddpds/tests
 cd ..
 

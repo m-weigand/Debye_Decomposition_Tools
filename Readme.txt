@@ -8,6 +8,11 @@ installation) using the executable scripts 'dd_sinlge.py', 'dd_time.py', and
 'ddpst.py'. More information can be found in the html documentation (see
 section below).
 
+This is a distribution package meant for distribution with the manuscript.
+Please refer to the section 'Upstram development' down below for links to the
+full source repositories. To reduce the size of the archive, all git data and
+most of the test data were removed.
+
 The programs were developed using Debian Wheezy.
 
 Overview
