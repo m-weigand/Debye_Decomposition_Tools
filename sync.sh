@@ -22,6 +22,10 @@ rm -fr .git
 rm -rf src/dd_single/tests
 rm -rf src/dd_single/characterisation
 rm -rf src/dd_time/Tests
+rm -rf src/ddps/tests
 rm -rf src/ddpds/tests
+rm -rf src/dd_test/tests
+rm -rf WebApps/
+rm -rf playground
 cd ..
 
