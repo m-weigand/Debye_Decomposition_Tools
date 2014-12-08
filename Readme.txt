@@ -1,5 +1,13 @@
-Debye Decomposition tools as presented in the paper titled "Debye decomposition
-of time-lapse spectral induced polarisation data"
+Debye decomposition tools
+=========================
+
+Routines corresponding to the manuscript "Debye decomposition of time-lapse
+spectral induced polarisation data". The routines can be accessed (after
+installation) using the executable scripts 'dd_sinlge.py', 'dd_time.py', and
+'dd_space_time.py'. Corresponding tool-scripts are 'ddps.py', 'ddpt.py', and
+'ddpst.py'. More information can be found in the html documentation (see
+section below).
+
 
 
 Overview
@@ -9,7 +17,7 @@ The software package is written in pure Python, and distributed in two Python
 packages (in corresponding subdirectories):
 
     - 'geccoinv': A (more or less) generic N-dimensional inversion framework
-    - 'dd_interfaces': Implemntation of the various Debye decomposition
+    - 'dd_interfaces': Implementation of the various Debye decomposition
                        interfaces
 
 Both subdirectories are separate source code repositories (managed via git) and
