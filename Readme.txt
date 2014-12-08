@@ -8,7 +8,7 @@ installation) using the executable scripts 'dd_sinlge.py', 'dd_time.py', and
 'ddpst.py'. More information can be found in the html documentation (see
 section below).
 
-
+The programs were developed using Debian Wheezy.
 
 Overview
 --------
