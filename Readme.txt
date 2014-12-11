@@ -50,7 +50,12 @@ commands:
         texlive-fonts-recommended texlive-fonts-extra dvipng
     sudo apt-get install python2.7-numpy python-matplotlib python2.7-scipy\
         python-setuptools python-nose python-tornado
-    sudo apt-get install python-sphinx
+
+In order to build the documentation, the following sphinx-related packages must
+be installed:
+
+    sudo apt-get install python-sphinx python-sphinxcontrib.blockdiag
+    pip install sphinxcontrib-programoutput
 
 Under Windows, the program was tested using the 'pythonxy' distribution
 (https://code.google.com/p/pythonxy/). Additionally, latex support ist required
@@ -81,6 +86,17 @@ directories:
 
  * dd_interfaces/docs/doc/_build/html/index.html
  * geccoinv/docs/doc/_build/html/index.html
+
+After installation of geccoinv and dd_interfaces, the documentation can be
+(re-)built using the following commands:
+
+    cd dd_interfaces/docs/doc
+    make html
+    cd ../../../
+
+    cd geccoinv/docs/doc
+    make html
+    cd ../../../
 
 Upstream development
 --------------------
