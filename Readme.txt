@@ -1,7 +1,7 @@
 Debye decomposition tools
 =========================
 
-Routines corresponding to the manuscript "Debye decomposition of time-lapse
+Routines accompanying to the manuscript "Debye decomposition of time-lapse
 spectral induced polarisation data". The routines can be accessed (after
 installation) using the executable scripts 'dd_sinlge.py', 'dd_time.py', and
 'dd_space_time.py'. Corresponding tool-scripts are 'ddps.py', 'ddpt.py', and
@@ -9,7 +9,7 @@ installation) using the executable scripts 'dd_sinlge.py', 'dd_time.py', and
 section below).
 
 This is a distribution package meant for distribution with the manuscript.
-Please refer to the section 'Upstram development' down below for links to the
+Please refer to the section 'Upstream development' down below for links to the
 full source repositories. To reduce the size of the archive, all git data and
 most of the test data were removed.
 
