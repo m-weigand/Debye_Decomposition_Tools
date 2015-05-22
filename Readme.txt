@@ -87,6 +87,18 @@ Under Windows, the 'python' command has to be replaced by 'python.exe':
     python.exe setup.py install
     cd ..
 
+Quick-Start
+-----------
+
+The examples in the directory "dd_interfaces/Examples" provide a good starting
+point for using the Debye decomposition routines. All examples are located in
+separated subdirectories, and usually a Linux-batch file "run_dd.sh" holds the
+call to the decomposition program. Sometimes a corresponding .windows file
+contains the Windows-batch commands.
+
+At least one example ("dd_interfaces/Examples/dd_single/01") should be executed
+in order to test the installation.
+
 Documentation
 -------------
 
@@ -131,4 +143,4 @@ https://github.com/m-weigand/Debye_Decomposition_Tools
 
 Licence
 -------
-Both projects are released under the GPL3 licence (see LICENCE files).
+Copyright Maximilian Weigand, 2014-2015
