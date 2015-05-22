@@ -93,8 +93,8 @@ Documentation
 The html version of the documentation can be found in the following
 directories:
 
- * dd_interfaces/docs/doc/_build/html/index.html
- * geccoinv/docs/doc/_build/html/index.html
+ * doc_dd_interfaces/index.html
+ * doc_geccoinv/index.html
 
 After installation of geccoinv and dd_interfaces, the documentation can be
 (re-)built using the following commands:
@@ -106,6 +106,13 @@ After installation of geccoinv and dd_interfaces, the documentation can be
     cd geccoinv/docs/doc
     make html
     cd ../../../
+
+
+The html version of the documentation can be found in the following
+directories:
+
+ * dd_interfaces/docs/doc/_build/html/index.html
+ * geccoinv/docs/doc/_build/html/index.html
 
 Upstream development
 --------------------

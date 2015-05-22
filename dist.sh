@@ -32,6 +32,13 @@ cd temp/geccoinv/docs/doc/
 make html
 cd ../../../../
 
+# move documentation directories to the top-level
+cd temp
+cp -r geccoinv/docs/doc/_build/html doc_geccoinv
+cp -r dd_interfaces/docs/doc/_build/html doc_dd_interfaces
+cd ..
+
+# create zip file
 cd temp
 zip -r debye_decomposition_tools.zip *
 mv *.zip ..
