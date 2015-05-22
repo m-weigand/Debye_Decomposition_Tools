@@ -3,7 +3,7 @@ Debye decomposition tools
 
 Routines accompanying to the manuscript "Debye decomposition of time-lapse
 spectral induced polarisation data". The routines can be accessed (after
-installation) using the executable scripts 'dd_sinlge.py', 'dd_time.py', and
+installation) using the executable scripts 'dd_single.py', 'dd_time.py', and
 'dd_space_time.py'. Corresponding tool-scripts are 'ddps.py', 'ddpt.py', and
 'ddpst.py'. More information can be found in the html documentation (see
 section below).
@@ -13,7 +13,7 @@ Please refer to the section 'Upstream development' down below for links to the
 full source repositories. To reduce the size of the archive, all git data and
 most of the test data were removed.
 
-The programs were developed using Debian Wheezy.
+The programs were developed using Debian Wheezy and Debian Jessie.
 
 Overview
 --------
@@ -39,12 +39,12 @@ numpy
 scipy
 matplotlib
 
-In order to build the documentation, the additional packages are required:
+In order to build the documentation, additional packages are required:
 
-sphinx
+sphinx sphinxcontrib.blockdiag sphinxcontrib.programoutput
 
 Under Debian-related linux systems, these packages can be installed using the
-commands:
+following commands (Debian Jessie):
 
     sudo apt-get install texlive-latex-base texlive-latex-extra\
         texlive-fonts-recommended texlive-fonts-extra dvipng
@@ -55,13 +55,15 @@ In order to build the documentation, the following sphinx-related packages must
 be installed:
 
     sudo apt-get install python-sphinx python-sphinxcontrib.blockdiag
+	sudo apt-get install python-sphinxcontrib-programoutput
+
     pip install sphinxcontrib-programoutput
 
 Under Windows, the program was tested using the 'pythonxy' distribution
 (https://code.google.com/p/pythonxy/). Additionally, latex support ist required
-for all plots. The programs was tested with the Miktex distribution
+for all plots. The programs were tested with the Miktex distribution
 (http://www.miktex.org/). Miktex will install any required Latex packages
-as required.
+automatically as required.
 
 Installation
 ------------
@@ -76,7 +78,14 @@ done using the following commands:
     python setup.py install
     cd ..
 
-Under Windows, 'python' has to be replaced by 'python.exe'
+Under Windows, the 'python' command has to be replaced by 'python.exe':
+
+    cd geccoinv
+    python.exe setup.py install
+    cd ..
+    cd dd_interfaces
+    python.exe setup.py install
+    cd ..
 
 Documentation
 -------------
