@@ -1,0 +1,25 @@
+Review 1
+========
+
+Todo points for reviewer #2
+---------------------------
+
+* test, and promote, ddps.py --plot functionality
+* complete examples for dd_time.py and dd_space_time.py
+	* especially for Windows
+* Python 3 conversion
+* Readme for Windows and Linux (txt and PDF)
+* clear step-by-step guide on setting up the Python installation
+* Documentation should be located not so deep in the directory structure
+* Restructure HTML-documentation, provide a way to go through it
+* Provide simple GUI for calling the routines (perhaps use web2py?)
+	http://web2py.com/books/default/chapter/29/14/other-recipes#How-to-distribute-your-applications-as-binaries
+* redesign output format: one result file (i.e. matlab file, hdf5?)
+	* I think we need some pluggable structure here, to provide the output
+	  formats simple, to_directory, and to_meta_file, or something similar
+*  audit trail: perhaps provide md5sums of all created files, and a
+   corresponding check functionality in ddps.py?
+* can we catch the Latex-errors of matplotlib
+	* or even deactivate latex-output in Windows, and only reactivate it after
+	  it was requested?
+* activate issue tracker
