@@ -143,4 +143,4 @@ https://github.com/m-weigand/Debye_Decomposition_Tools
 
 Licence
 -------
-Copyright Maximilian Weigand, 2014-2015
+Both projects are released under the GPL3 licence (see LICENCE files).
