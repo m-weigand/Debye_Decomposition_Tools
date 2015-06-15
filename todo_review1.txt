@@ -4,6 +4,9 @@ Review 1
 Todo points for reviewer #2
 ---------------------------
 
+* change internal data formats so we can
+	a) save all iterations
+	b) easily (and fast!) recreate iterations
 * test, and promote, ddps.py --plot functionality
 * complete examples for dd_time.py and dd_space_time.py
 	* especially for Windows
@@ -23,3 +26,10 @@ Todo points for reviewer #2
 	* or even deactivate latex-output in Windows, and only reactivate it after
 	  it was requested?
 * activate issue tracker
+
+Additional TODO
+---------------
+
+* fix normalisation (including documentation)
+* add general Cole-Cole distributions
+* add EM-Term
