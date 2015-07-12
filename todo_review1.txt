@@ -33,3 +33,14 @@ Additional TODO
 * fix normalisation (including documentation)
 * add general Cole-Cole distributions
 * add EM-Term
+
+
+Reply bits
+----------
+
+* We ackowledge that controlling settings by means of environment variables can
+  be quire cumbersome, especially on Windows. For the future, we plan to move
+  these variables either to the command line options, or to a configuration
+  file (bug url: ).  However, this will require substantial restructuring of
+  the code base, and will require an corresponding amount of testing.
+
