@@ -44,3 +44,9 @@ Reply bits
   file (bug url: ).  However, this will require substantial restructuring of
   the code base, and will require an corresponding amount of testing.
 
+* Python 2.7 is still actively maintained, see, for example, the changelog of
+  the latest release (May 2015):
+
+  https://hg.python.org/cpython/raw-file/15c95b7d81dc/Misc/NEWS
+
+
