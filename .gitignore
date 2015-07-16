@@ -2,3 +2,6 @@ dd_interfaces/
 geccoinv/
 temp/
 debye_decomposition_tools.zip
+build/
+dist/
+dd_tools.egg-info/

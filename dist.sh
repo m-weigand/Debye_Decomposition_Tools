@@ -38,6 +38,9 @@ cp -r geccoinv/docs/doc/_build/html doc_geccoinv
 cp -r dd_interfaces/docs/doc/_build/html doc_dd_interfaces
 cd ..
 
+# move global setup.py file
+cp setup.py temp/
+
 # create zip file
 cd temp
 zip -r debye_decomposition_tools.zip *

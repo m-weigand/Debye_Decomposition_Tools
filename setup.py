@@ -32,10 +32,14 @@ if __name__ == '__main__':
           # find_packages() somehow does not work under Win7 when creating a
           # msi # installer
           # packages=find_packages(),
-          package_dir={'': 'geccoinv/lib',
-                       'lib_dd': 'dd_interfaces/lib',
-                       'lib_dd.conductivity': 'dd_interfaces/lib',
-                       'lib_dd.io': 'dd_interfaces/lib',
+          package_dir={'lib_cc': 'geccoinv/lib/lib_cc',
+                       'lib_cc2': 'geccoinv/lib/lib_cc2',
+                       'lib_cc_conductivity': 'geccoinv/lib/lib_cc_conductivity',
+                       'NDimInv': 'geccoinv/lib/NDimInv',
+                       'sip_formats': 'geccoinv/lib/sip_formats',
+                       'lib_dd': 'dd_interfaces/lib/lib_dd',
+                       # 'lib_dd.conductivity': 'dd_interfaces/lib',
+                       # 'lib_dd.io': 'dd_interfaces/lib',
                        },
           packages=['lib_cc',
                     'lib_cc2',
