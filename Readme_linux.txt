@@ -68,8 +68,19 @@ automatically as required.
 Installation
 ------------
 
-The packages use the setuptools package, and the installation under linux is
-done using the following commands:
+The packages use the setuptools package, and the following command will install
+a working set of the Debye decomposition tools:
+
+	sudo python setup.py install
+
+You can also install to your home directory:
+
+	python setup.py install --user
+
+Note that, in this case, you have to make sure that the corresponding
+directories are in PYTHONPATH and PATH.
+
+The components geccoinv and dd_interfaces can be installed using the commands:
 
     cd geccoinv
     python setup.py install
@@ -78,14 +89,6 @@ done using the following commands:
     python setup.py install
     cd ..
 
-Under Windows, the 'python' command has to be replaced by 'python.exe':
-
-    cd geccoinv
-    python.exe setup.py install
-    cd ..
-    cd dd_interfaces
-    python.exe setup.py install
-    cd ..
 
 Quick-Start
 -----------
