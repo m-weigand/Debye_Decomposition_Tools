@@ -8,7 +8,8 @@ mkdir temp
 
 # copy files
 cp -r geccoinv dd_interfaces temp/
-cp Readme.txt temp
+cp Readme_linux.txt temp/
+cp Readme_windows.txt temp/
 
 # save the newest commit
 cd temp/geccoinv
@@ -26,6 +27,7 @@ rm -rf temp/dd_interfaces/.git
 # build documentation
 cd temp/dd_interfaces/docs/doc/
 make html
+make latexpdf
 cd ../../../../
 
 cd temp/geccoinv/docs/doc/
@@ -36,6 +38,7 @@ cd ../../../../
 cd temp
 cp -r geccoinv/docs/doc/_build/html doc_geccoinv
 cp -r dd_interfaces/docs/doc/_build/html doc_dd_interfaces
+cp -r dd_interfaces/docs/doc/_build/latex/DebyeDecomposition.pdf DD-Tools_Manual.pdf
 cd ..
 
 # move global setup.py file

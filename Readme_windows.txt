@@ -1,6 +1,13 @@
 Debye decomposition tools
 =========================
 
+Please refer to the accompanying PDF manual "DD-Tools_Manual.pdf" for
+installation instruction on the Windows operating system. The following
+information are only relevant for users familar with the Python programming
+language.
+
+
+
 Routines accompanying to the manuscript "Debye decomposition of time-lapse
 spectral induced polarisation data". The routines can be accessed (after
 installation) using the executable scripts 'dd_single.py', 'dd_time.py', and
