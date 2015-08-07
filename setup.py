@@ -54,7 +54,9 @@ if __name__ == '__main__':
                    'dd_interfaces/src/dd_space_time/dd_space_time.py',
                    'dd_interfaces/src/dd_test/dd_test.py',
                    'dd_interfaces/src/ddps/ddps.py',
-                   'dd_interfaces/src/ddpt/ddpt.py',
-                   'dd_interfaces/src/ddpst/ddpst.py'],
+                   'dd_interfaces/src/ddplot/ddplot.py',
+                   # 'dd_interfaces/src/ddpt/ddpt.py',
+                   #'dd_interfaces/src/ddpst/ddpst.py',
+                   ],
           install_requires=['numpy', 'scipy>=0.12', 'matplotlib']
           )
