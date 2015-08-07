@@ -13,6 +13,7 @@ cp Readme_windows.txt temp/
 
 # move examples to toplevel
 mv temp/dd_interfaces/Examples temp/
+rm -r temp/Examples/dd_space_time/
 
 # save the newest commit
 cd temp/geccoinv
@@ -54,7 +55,7 @@ cp fix_registry_windows.py temp/
 if [ -d msi_installer ]; then
 	echo "Checking for MSI installer"
 	msi_files=(`ls -1 msi_installer/*.msi`)
-	print ${msi_files[@]}
+	echo ${msi_files[@]}
 	if [ ${#msi_files[@]} -gt 0 ]
 	then
 		echo "copying ${msi_files[-1]}"
