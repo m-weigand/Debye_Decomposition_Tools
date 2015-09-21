@@ -31,7 +31,9 @@ rm -rf temp/dd_interfaces/.git
 # build documentation
 cd temp/dd_interfaces/docs/doc/
 make html
-make latexpdf
+# we build the latex-pdf using this script, which removes the :download: tags
+./generate_html_version.sh
+# make latexpdf
 cd ../../../../
 
 cd temp/geccoinv/docs/doc/
@@ -62,10 +64,12 @@ if [ -d msi_installer ]; then
 		cp "${msi_files[-1]}" temp/
 	fi
 fi
+# determine version number
+version=`python -c "import setup; print setup.version_short"`
 
 # create zip file
 cd temp
-zip -r debye_decomposition_tools.zip *
+zip -r debye_decomposition_tools-"${version}".zip *
 mv *.zip ..
 cd ..
 # rm -rf temp
