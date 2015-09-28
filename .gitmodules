@@ -1,3 +1,6 @@
 [submodule "dd_interfaces"]
 	path = dd_interfaces
 	url = https://github.com/m-weigand/dd_interfaces.git
+[submodule "geccoinv"]
+	path = geccoinv
+	url = https://github.com/m-weigand/geccoinv.git
