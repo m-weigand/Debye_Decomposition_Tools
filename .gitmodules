@@ -1,0 +1,3 @@
+[submodule "dd_interfaces"]
+	path = dd_interfaces
+	url = https://github.com/m-weigand/dd_interfaces.git
