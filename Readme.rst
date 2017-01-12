@@ -3,7 +3,7 @@ Debye decomposition routines
 
 **This repository is not actively maintained anymore. Please refer to the
 ccd_tools repository 
-[https://github.com/m-weigand/ccd_tools](https://github.com/m-weigand/ccd_tools)
+https://github.com/m-weigand/ccd_tools
 for updated versions!**
 
 Python implementation of the Debye decompositions routines used to analyse
